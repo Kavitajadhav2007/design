@@ -1,8 +1,14 @@
 import "./App.css";
+import Hero from "./Hero";
+import About from "./About";
+import Project from "./Project";
+import Contact from "./Contact";
 
 function App() {
   return (
     <div className="container">
+      <Hero />
+
       {/* Navbar */}
       <nav className="navbar">
         <h2>Kavita Jadhav</h2>
@@ -61,6 +67,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
 export default App;
